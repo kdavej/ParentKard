@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title><asp:ContentPlaceHolder ID="Title" runat="server" /></title>
+    <asp:ContentPlaceHolder ID="MetaInformation" runat="server" />
+    <asp:ContentPlaceHolder ID="Styles" runat="server" />
+</head>
+<body>
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+    <asp:ContentPlaceHolder ID="Scripts" runat="server" />
+</html>
