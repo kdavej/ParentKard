@@ -143,6 +143,42 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\bower_components\animate.css\animate.css" />
+    <Content Include="assets\bower_components\animate.css\animate.min.css" />
+    <Content Include="assets\bower_components\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="assets\bower_components\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="assets\bower_components\bootstrap\css\bootstrap.css" />
+    <Content Include="assets\bower_components\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\bower_components\bootstrap\js\bootstrap.js" />
+    <Content Include="assets\bower_components\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\bower_components\bootstrap\js\npm.js" />
+    <Content Include="assets\bower_components\waves\waves.css" />
+    <Content Include="assets\bower_components\waves\waves.js" />
+    <Content Include="assets\bower_components\waves\waves.min.css" />
+    <Content Include="assets\bower_components\waves\waves.min.js" />
+    <Content Include="assets\bower_components\jquery\jquery.js" />
+    <Content Include="assets\bower_components\jquery\jquery.min.js" />
+    <Content Include="assets\bower_components\material-design-iconic-font\css\material-design-iconic-font.css" />
+    <Content Include="assets\bower_components\material-design-iconic-font\css\material-design-iconic-font.min.css" />
+    <Content Include="assets\css\app.css" />
+    <Content Include="assets\css\app.min.1.css" />
+    <Content Include="assets\css\app.min.2.css" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\fonts\roboto\Roboto-Bold-webfont.svg" />
+    <Content Include="assets\fonts\roboto\Roboto-Light-webfont.svg" />
+    <Content Include="assets\fonts\roboto\Roboto-Medium-webfont.svg" />
+    <Content Include="assets\fonts\roboto\Roboto-Regular-webfont.svg" />
+    <Content Include="assets\fonts\roboto\Roboto-Thin-webfont.svg" />
+    <Content Include="assets\fonts\shadowsintolight\shadowsintolight-webfont.svg" />
+    <Content Include="assets\fonts\weather-icons\weather-icons.svg" />
+    <Content Include="assets\js\charts.js" />
+    <Content Include="assets\js\flot-charts\bar-chart.js" />
+    <Content Include="assets\js\flot-charts\curved-line-chart.js" />
+    <Content Include="assets\js\flot-charts\dynamic-chart.js" />
+    <Content Include="assets\js\flot-charts\line-chart.js" />
+    <Content Include="assets\js\flot-charts\pie-chart.js" />
+    <Content Include="assets\js\functions.js" />
     <Content Include="Global.asax" />
     <Content Include="Libraries\Microsoft.Exchange.WebServices.dll" />
     <Content Include="Views\Pages\About.aspx" />
@@ -181,6 +217,44 @@
       <Project>{d50da435-4884-42ed-8a3e-9613e44010f5}</Project>
       <Name>ParentKardData</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\bower_components\material-design-iconic-font\fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="assets\bower_components\material-design-iconic-font\fonts\Material-Design-Iconic-Font.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="assets\fonts\roboto\Roboto-Bold-webfont.eot" />
+    <Content Include="assets\fonts\roboto\Roboto-Bold-webfont.ttf" />
+    <Content Include="assets\fonts\roboto\Roboto-Bold-webfont.woff" />
+    <Content Include="assets\fonts\roboto\Roboto-Light-webfont.eot" />
+    <Content Include="assets\fonts\roboto\Roboto-Light-webfont.ttf" />
+    <Content Include="assets\fonts\roboto\Roboto-Light-webfont.woff" />
+    <Content Include="assets\fonts\roboto\Roboto-Medium-webfont.eot" />
+    <Content Include="assets\fonts\roboto\Roboto-Medium-webfont.ttf" />
+    <Content Include="assets\fonts\roboto\Roboto-Medium-webfont.woff" />
+    <Content Include="assets\fonts\roboto\Roboto-Regular-webfont.eot" />
+    <Content Include="assets\fonts\roboto\Roboto-Regular-webfont.ttf" />
+    <Content Include="assets\fonts\roboto\Roboto-Regular-webfont.woff" />
+    <Content Include="assets\fonts\roboto\Roboto-Thin-webfont.eot" />
+    <Content Include="assets\fonts\roboto\Roboto-Thin-webfont.ttf" />
+    <Content Include="assets\fonts\roboto\Roboto-Thin-webfont.woff" />
+    <Content Include="assets\fonts\shadowsintolight\shadowsintolight-webfont.eot" />
+    <Content Include="assets\fonts\shadowsintolight\shadowsintolight-webfont.ttf" />
+    <Content Include="assets\fonts\shadowsintolight\shadowsintolight-webfont.woff" />
+    <Content Include="assets\fonts\shadowsintolight\shadowsintolight-webfont.woff2" />
+    <Content Include="assets\fonts\weather-icons\weather-icons.eot" />
+    <Content Include="assets\fonts\weather-icons\weather-icons.ttf" />
+    <Content Include="assets\fonts\weather-icons\weather-icons.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
