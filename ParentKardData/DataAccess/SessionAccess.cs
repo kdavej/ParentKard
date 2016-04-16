@@ -6,9 +6,9 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Web;
-using DefaultMVC4.Models.DataObjects.Session;
+using ParentKardData.DataObjects.Session;
 
-namespace DefaultMVC4.Models.DataAccess
+namespace ParentKardData.DataAccess
 {
     public class SessionAccess : ConnectionAccess
     {
@@ -103,7 +103,7 @@ namespace DefaultMVC4.Models.DataAccess
             return dcs;
         }
 
-        public void UpdateSessionData(string SessionID, SessionInformation SessionData)
+        public void UpdateSessionData(string SessionID, object SessionData)
         {
             BinaryFormatter bf = new BinaryFormatter();
             MemoryStream memstream = new MemoryStream();

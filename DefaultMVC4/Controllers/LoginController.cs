@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using DefaultMVC4.Models.DataAccess;
-using DefaultMVC4.Models.DataObjects.Session;
+using ParentKardData.DataAccess;
+using ParentKardData.DataObjects.Session;
 
 namespace DefaultMVC4.Controllers
 {

@@ -138,11 +138,6 @@
     </Compile>
     <Compile Include="Models\Attributes\DCOAuthorize.cs" />
     <Compile Include="Models\Attributes\DCOErrorHandler.cs" />
-    <Compile Include="Models\DataAccess\ConnectionAccess.cs" />
-    <Compile Include="Models\DataAccess\SessionAccess.cs" />
-    <Compile Include="Models\DataObjects\Session\DCOSession.cs" />
-    <Compile Include="Models\DataObjects\Session\DCOUser.cs" />
-    <Compile Include="Models\DataObjects\Session\SessionInformation.cs" />
     <Compile Include="Models\Helpers\ViewHelper.cs" />
     <Compile Include="Models\Services\Email\Exchange.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -167,6 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\Session\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

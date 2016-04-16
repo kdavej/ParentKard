@@ -5,8 +5,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using DefaultMVC4.Models.DataAccess;
-using DefaultMVC4.Models.DataObjects.Session;
+using ParentKardData.DataAccess;
+using ParentKardData.DataObjects.Session;
 
 namespace DefaultMVC4.Models.Attributes
 {

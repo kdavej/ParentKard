@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace DefaultMVC4.Models.DataObjects.Session
+namespace ParentKardData.DataObjects.Session
 {
     public class DCOUser
     {

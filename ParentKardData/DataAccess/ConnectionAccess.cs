@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
-namespace DefaultMVC4.Models.DataAccess
+namespace ParentKardData.DataAccess
 {
     public abstract class ConnectionAccess
     {

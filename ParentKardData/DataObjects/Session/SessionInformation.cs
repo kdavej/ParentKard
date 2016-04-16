@@ -4,14 +4,15 @@ using System.Configuration;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Web;
-using DefaultMVC4.Models.DataAccess;
+using ParentKardData.DataAccess;
 
-namespace DefaultMVC4.Models.DataObjects.Session
+namespace ParentKardData.DataObjects.Session
 {
     [Serializable]
     public class SessionInformation : Dictionary<string, object>
     {
         private string CookieName;
+        public string SessionID;
         public SessionInformation()
         {
             CookieName = ConfigurationManager.AppSettings["COOKIENAME"].ToString();
@@ -48,10 +49,10 @@ namespace DefaultMVC4.Models.DataObjects.Session
 
         private void StoreUpdate()
         {
-            if (HttpContext.Current.Request.Cookies[CookieName] != null)
+            if (SessionID != null && SessionID != String.Empty)
             {
                 SessionAccess csa = new SessionAccess();
-                csa.UpdateSessionData(HttpContext.Current.Request.Cookies[CookieName].Value, this);
+                csa.UpdateSessionData(SessionID, this);
             }
         }
 
