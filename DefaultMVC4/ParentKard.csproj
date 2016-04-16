@@ -180,6 +180,12 @@
   <ItemGroup>
     <Content Include="Views\Shared\Templates\Default\BlogPost.Master" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParentKardData\ParentKardData.csproj">
+      <Project>{d50da435-4884-42ed-8a3e-9613e44010f5}</Project>
+      <Name>ParentKardData</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

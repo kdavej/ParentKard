@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultMVC4", "DefaultMVC4\DefaultMVC4.csproj", "{3524DFF7-AB94-4444-950D-354A6425D1BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParentKard", "DefaultMVC4\ParentKard.csproj", "{3524DFF7-AB94-4444-950D-354A6425D1BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallFiles", "InstallFiles\InstallFiles.csproj", "{9B7B84A4-A5AE-4992-A9EC-A885899C56CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParentKardData", "ParentKardData\ParentKardData.csproj", "{D50DA435-4884-42ED-8A3E-9613E44010F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		{3524DFF7-AB94-4444-950D-354A6425D1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3524DFF7-AB94-4444-950D-354A6425D1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3524DFF7-AB94-4444-950D-354A6425D1BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B7B84A4-A5AE-4992-A9EC-A885899C56CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B7B84A4-A5AE-4992-A9EC-A885899C56CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B7B84A4-A5AE-4992-A9EC-A885899C56CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B7B84A4-A5AE-4992-A9EC-A885899C56CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50DA435-4884-42ED-8A3E-9613E44010F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50DA435-4884-42ED-8A3E-9613E44010F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50DA435-4884-42ED-8A3E-9613E44010F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50DA435-4884-42ED-8A3E-9613E44010F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
